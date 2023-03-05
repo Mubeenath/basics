@@ -1,0 +1,185 @@
+*
+{
+margin: 0;
+padding: 0;
+}
+
+
+
+.header
+{
+    background: orange;
+    width: 100%;
+    height: 120px;
+    margin: 0%;
+}
+body{
+    margin: 0;
+}
+.logo
+{
+width: 50%;
+float:left;
+padding-top: 35px;
+}
+
+.sidemenu
+{
+width: 50%;
+float:right;
+padding-top: 20px;
+color: white;
+}
+.logotext
+{
+color: white;
+font-size: 40px;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+padding-left: 85px;
+}
+.table{
+    border-collapse: separate;
+    border-spacing: 20px 0;
+}
+.press
+{
+background-color:orange;
+color: white;
+cursor: pointer;
+}
+.press:hover{
+    background:yellow;
+}
+.mainbody
+{
+background:white;
+width: 100%;
+height: 600px;
+padding-top: 30px;
+}
+.body1
+{
+width: 40%;
+height: 600px;
+font-size:30px;
+font-weight: bold;
+padding-left: 40px;
+float: left;
+}
+.body2
+{
+width: 50%;
+height: 550px;
+float: right;
+border: 5px solid orange;
+padding-left: 10px;
+background-color: whitesmoke;
+}
+.line1
+{
+font-size: 28px;
+font-weight: bold;
+}
+.line2
+{
+font-size: 20px;
+font-weight: bold;
+}
+.box22
+{
+padding-top: 10px;
+}
+.box23
+{
+    padding-top: 10px;
+}
+.box24
+{
+padding-top: 10px;
+}
+.box25
+{
+    padding-top: 10px;
+}
+.box26
+{
+    padding-top: 30px;
+    padding-left: 150px;
+}
+.fname
+{
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display:in-line block;
+    border: 1px solid #ccc;
+
+}
+.lname
+{
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display:in-line block;
+    border: 1px solid #ccc;
+}
+.mail
+{
+    width: 87%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display:in-line block;
+    border: 1px solid #ccc;
+}
+.pass
+{
+    width: 87%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display:in-line block;
+    border: 1px solid #ccc;
+}
+
+.signup
+{
+background-color: #04AA6D;
+  color: white;
+  padding: 16px 10px;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+  border-radius: 20px;
+}
+.signup:hover
+{
+background-color: whitesmoke;
+color: black;
+}
+.gen
+{
+display: subgrid;
+position:relative ;
+padding-left: 20px;
+margin-bottom: 5px;
+cursor: pointer;
+font-size: 22px;
+}
+.bri1
+{
+    width: 20%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  resize: vertical;
+  
+}
+.bri
+{
+font-size:20px;
+padding-left: 5px;
+}

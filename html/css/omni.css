@@ -1,0 +1,504 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+    font-size: 62.5%;
+}
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+}
+.header
+{
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 9.6rem;
+padding: 0 4.8rem;
+background-color: #fdf2e9;
+}
+.logo
+{
+    height: 2.2rem;
+}
+.main-nav
+{}
+.main-navlist
+{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 3.2rem;
+
+}
+.main-navlink:link,.main-navlink:visited
+{
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.8rem;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+.main-navlink:hover,.main-navlink:active
+{
+    color: #cf711f;
+}
+.main-navlink.nav-cta:link,
+.main-navlink.nav-cta:visited
+{
+    background-color: #e67e22;
+    color: #fff;
+    padding: 1.2rem 2.4rem;
+    border-radius: 9px;
+}
+.main-navlink.nav-cta:hover,
+.main-navlink.nav-cta:active
+{
+    background-color: #cf711f;
+}
+
+.section-hero
+{
+    background-color:#fdf2e9;
+    padding:4.8rem 0 9.6rem 0;
+}
+.hero
+{
+    max-width: 130rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 9.6rem;
+    align-items: center;
+    padding: 0 3.2rem;
+}
+.hero-textbox
+{}
+.hero-heading
+{
+    font-size: 5.2rem;
+    line-height: 1.05;
+    font-weight: 700;
+    color: #333;
+    letter-spacing: -0.5px;
+    margin-bottom: 3.2rem;
+}
+.hero-para
+{
+    font-size: 2rem;
+    line-height: 1.6;
+    margin-bottom: 4.8rem;
+}
+.btn:link,.btn:visited
+{
+    display: inline-block;
+    padding: 1.6rem 3.2rem;
+    font-size: 2rem;
+    text-decoration: none;
+    border-radius: 9px;
+    transition: all 0.3s;
+}
+.btn-orge:link,.btn-orge:visited
+{
+    background-color:#e67e22;
+    color: white;
+}
+.btn-orge:hover,.btn-orge:active
+{
+    background-color: #cf711f;
+}
+.mrgn-rgt-16
+{
+margin-right: 1.6rem;
+}
+
+.btn-white:link,.btn-white:visited
+{
+    background-color: #fff;
+    color: #555;
+
+}
+.btn-white:hover,.btn-white:active
+{
+    background-color: #fdf2e9;
+    box-shadow: inset 0 0 0 3px #fff;
+}
+.delivered-meals
+{
+    display: flex;
+    margin-top: 8rem;
+    gap: 1.6rem;
+    align-items: center;
+}
+.custmr-img
+{
+    display: flex;
+}
+.custmr-img img
+{
+    width: 4.8rem;
+    height: 4.8rem;
+    border-radius: 50%;
+    margin-right: -1.6rem;
+    border: 3px solid #fdf2e9;
+}
+.custmr-img img:last-child
+{
+    margin: 0;
+}
+.delivered-text
+{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.delivered-text span
+{
+   color: #cf711f;
+   font-weight: 700;
+}
+
+.hero-imgbox
+{}
+.hero-img
+{
+width: 100%;
+}
+.section-how
+{
+    padding: 9.6rem 0;
+}
+.subheading
+{
+    display: block;
+    font-size: 1.6rem;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #cf711f;
+    text-transform: uppercase;
+    margin-bottom: 1.6rem;
+    letter-spacing: 0.75;
+}
+.scndheading
+{
+    font-size: 4.4rem;
+    line-height: 1.2;
+    font-weight:700;
+    margin-bottom: 9.6rem;
+    color: #333;
+    letter-spacing: -0.5px;
+}
+.box
+{
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+}
+.section-featured
+{
+  padding: 4.8rem 0 3.2rem 0;
+}
+.heading-featured
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 2.4rem;
+    letter-spacing: 0.75px;
+    color: #888;
+}
+.featured-imgbox
+{
+    display: flex;
+    justify-content: space-around;
+}
+.fimg
+{
+    height: 3.2rem;
+    filter: brightness(0);
+    opacity: 50%;
+}
+.zbox
+{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   column-gap: 6.4rem; 
+   row-gap: 9.6rem;
+   align-items: center;
+}
+.step-heading
+{
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #333;
+    letter-spacing: -0.5px;
+    margin-bottom: 3.2rem;
+}
+.step-nmbr
+{
+    font-size: 8.6rem;
+    font-weight: 600;
+    margin-bottom:1.2rem ;
+    color: #ddd;
+}
+.step-description
+{
+    font-size: 1.8rem;
+    line-height: 1.8;
+}
+.step-img
+{
+    width: 35%;
+}
+.step-imgbox
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.step-imgbox::after,.step-imgbox::before
+{
+    content: "";
+    position: absolute;
+    display: block;
+    border-radius: 50%;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.step-imgbox::after
+{
+    width: 60%;
+    padding-bottom: 60%;
+    background-color: #fdf2e9;
+    z-index: -2;
+}
+.step-imgbox::before
+{
+    width: 45%;
+    padding-bottom: 45%;
+    background-color:#fae5d3;
+    z-index: -1;
+}
+.section-meal
+{
+    padding: 9.6rem 0;
+}
+.fbox
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 6.4rem; 
+    row-gap: 9.6rem;
+    align-items: center;
+    margin-bottom: 4.6rem;
+}
+.meal
+{
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+.meal:hover 
+{
+    transform: translateY(-1.2rem);
+    box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+  }
+.meal-img
+{
+    width: 100%;
+}
+.meal-content
+{
+    padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+}
+.meal-tag
+{
+    margin-bottom: 1.2rem;
+    display: flex;
+    gap:0.4rem ;
+}
+.tag
+{
+    display: inline-block;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #333;
+    padding: 0.4rem 0.8rem;
+    border-radius: 100px;
+}
+.tag-vegtrn
+{
+   background-color:#51cf66; 
+}
+.tag-vegn
+{
+   background-color: #94d82d;
+}
+.tag-paleo
+{
+   background-color: #ffd43b;
+}
+.meal-title
+{
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 3.2rem;
+}
+.meal-attributes
+{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.meal-attribute
+{
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+.meal-icon
+{
+    font-size: 2.4rem;
+    color:#e67e22 ;
+}
+.list
+{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.list-item
+{
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+.list-icon
+{
+    font-size: 3rem;
+    color: #e67e22;
+}
+.all-resipe
+{
+    font-size: 1.8rem;
+    color:#e67e22;
+}
+.link-resipe
+{
+    text-align: center;
+}
+.all-resipe:link,.all-resipe:visited
+{
+    display: inline-block;
+   text-decoration: none;
+    border-bottom: 1px solid currentColor;
+     padding-bottom: 2px;
+     transition: all 0.3s;
+}
+.all-resipe:hover,.all-resipe:active
+{
+    color: #cf711f;
+    border-bottom: 1px solid transparent;
+}
+.section-pricing
+{
+    padding: 9.6rem 0;
+
+}
+.price-plan
+{
+    width: 75%;
+    border-radius: 11px;
+}
+.plan-header
+{
+    text-align: center;
+    margin-bottom: 4.8rem;
+}
+.plan-name
+{
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #cf711f;
+    margin-bottom: 3.2rem;
+}
+.plan-price
+{
+    font-size: 6.2rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1.6rem;
+}
+.plan-price span
+{
+   font-size: 3rem;
+   font-weight: 500;
+   margin-right: 0.8rem;
+}
+.plan-text
+{
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: #6f6f6f;
+}
+.starter-plan
+{
+    justify-self: end;
+    border: 2px solid #fdf2e9;
+    padding: 4.6rem;
+}
+.complete-plan
+{ 
+    background-color: #fdf2e9;
+    padding: 4.8rem;
+    position: relative;
+    overflow: hidden;
+}
+.complete-plan::after
+{
+    content: "Best value";
+    position: absolute;
+    top: 6%;
+    right: -18%;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #333;
+    background-color: #ffd43b;
+    padding: 0.8rem 8rem;
+    transform: rotate(45deg);
+}
+.plan-signup
+{
+    text-align: center;
+    margin-top: 4.8rem;
+}
+.plan-details
+{
+    font-size: 1.6rem;
+  line-height: 1.6;
+  text-align: center;
+}
+.pd{
+    text-align: center;
+}
